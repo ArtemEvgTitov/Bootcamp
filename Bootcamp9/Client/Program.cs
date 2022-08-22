@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Client
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Это наш Клиент");
+            OurClient ourClient = new OurClient();
+        }
+    }
+}
